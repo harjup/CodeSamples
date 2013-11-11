@@ -1,5 +1,6 @@
 <Manuscript>
-
+	<!-->An example set of data read in from ManuscriptLoader.cs</!-->	
+	
 	<Dialog ID="BS_AppleZoneTab">
 		<Text>Not much point in going back there.</Text>
 	</Dialog>	
