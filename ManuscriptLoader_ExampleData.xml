@@ -1,0 +1,340 @@
+<Manuscript>
+
+	<Dialog ID="BS_AppleZoneTab">
+		<Text>Not much point in going back there.</Text>
+	</Dialog>	
+
+	<!-->BeanStreet</!-->	
+	<Dialog ID="BS_NPC01">
+	<Text lang="fr" num="0">Oú est le piscine chaud? J’oublie, mais je pense que c’est loin de ici.</Text>
+	<Text lang="en" num="0">Where is the hot water pool? It's around here, but I forgot where.</Text>		
+	</Dialog>
+	
+	<Dialog ID="BS_NPC01_Success">		
+		<Text>Where is the... </Text>		
+		<Text>I can't even tell what that is, but apparently he forgot it.</Text>
+		<Text>And it’s around here somewhere...</Text>
+	</Dialog>
+	
+	<Dialog ID="TranslationFailure">
+	<Text>I didn't understand any of that!</Text>		
+	</Dialog>
+	
+	<Dialog ID="BS_NPC02">
+		<Text lang="fr" num="0">Oú est la salle des poubelles? Je ne sais pas.</Text>
+		<Text lang="en" num="0">Need text</Text>		
+	</Dialog>
+	
+	<Dialog ID="BS_NPC02_Success">		
+		<Text>A bucket room?</Text>		
+		<Text>Man, this culture sure is different.</Text>
+	</Dialog>
+	
+	<Dialog ID="BS_NPC03">
+		<Text lang="fr" num="0">J’aime le café ici, mais les serveurs ne veille pas parler a moi.</Text>
+		<Text lang="en" num="0">Need text</Text>		
+	</Dialog>
+	
+	<Dialog ID="BS_NPC03_Success">		
+		<Text>Well this little guy likes something here, but someone doesn’t want to talk to him?</Text>		
+		<Text>Oh, the service, guess we’re not so different after all...</Text>
+		<Text>The service industry leave something to be desired everywhere I guess.</Text>
+	</Dialog>
+	
+	<Dialog ID="BS_Box01">		
+		<Text>Wow, there's a lot of stuff in this box!</Text>		
+		<Text>Aw, it's all junk.</Text>
+	</Dialog>
+	
+	<Dialog ID="BS_Box02">		
+		<Text>Aw man, there's my favorite action figures in here!</Text>		
+		<Text>Oh wait, they’re all busted.</Text>
+		<Text>Probably because they're second hand from the surface.</Text>
+	</Dialog>
+	
+	<Dialog ID="BS_Box03">		
+		<Text>There are many smashed ceramic mugs on the surface.</Text>		
+		<Text>I don’t really want to dig around any more...</Text>
+	</Dialog>
+	
+	<!-->Secret Area 1</!-->	
+	<Dialog ID="SA01_Pool">		
+		<Text>There’s a pool with bubbling water... looks hot</Text>		
+	</Dialog>
+	
+	<Dialog ID="SA01_Pool_Examine">		
+		<Text>Apparently something is very something...</Text>		
+	</Dialog>
+	
+	<Dialog ID="SA01_Pool_HasHot">		
+		<Text>This pool is a total hottie</Text>
+	</Dialog>
+	
+	<Dialog ID="SA01_Sign">		
+		<Text lang="fr" num="1">L’eau est trés chaud!</Text>
+		<Text lang="en">Need Text</Text>
+	</Dialog>
+	
+	<Dialog ID="Generic_Contemplation">		
+		<Text>Hmm...</Text>
+	</Dialog>
+	
+	<!-->Secret Area 2</!-->
+	<Dialog ID="SA02_Box01">		
+		<Text>There are many empty drink cans.</Text>
+		<Text>Huh, there’s no deposit on them.</Text>
+		<Text>...</Text>
+		<Text>How’d they manage collect all these cans without a cash incentive??</Text>
+	</Dialog>
+		
+	<Dialog ID="SA02_Box01_GetWord">		
+		<Text>Hold on, that sign said this box was only for certain cans...</Text>
+		<Text>...</Text>
+		<Text>Oh! It's for cans after you drink their fizzy contents!</Text>
+	</Dialog>
+	
+	<Dialog ID="SA02_Box01_HasWord">		
+		<Text>Big box of empty cans</Text>
+	</Dialog>
+	
+	<Dialog ID="SA02_Box02">
+		<Text>This box is full of trash, but no cans.</Text>
+	</Dialog>
+	
+	<!-->Requires boisson gazeuse: soft drink/fizzy drink in order to get a success</!-->
+	<Dialog ID="SA02_DrinkSign">		
+		<Text lang="fr" num="5">Boîte est pour les boisson gazeuse boîte que vous buvez</Text>
+		<Text lang="en">Need Text</Text>
+	</Dialog>
+	
+	<Dialog ID="SA02_DrinkSign_Success">		
+		<Text>Hmm... there's a apparently a box for fizzy drinks that have been...</Text>
+		<Text>...</Text>
+		<Text>something.</Text>
+	</Dialog>
+	
+	<Dialog ID="SA02_DrinkSign_GetWord">
+		<Text>Oh, right!</Text>
+		<Text>The box with all the empty cans!</Text>
+		<Text>It's for cans after you drink their fizzy contents!</Text>
+	</Dialog>
+	
+	<Dialog ID="SA02_DrinkSign_Failure">		
+		<Text>I don't think I have enough words to figure out what the heck this says...</Text>
+	</Dialog>
+	
+	<Dialog ID="SA02_Bucket">
+		<Text>...</Text>
+	</Dialog>
+
+	<!-->Cafe</!-->
+	<Dialog ID="CA_Menu">
+		<Text>Boissons: Café, Boissons Gaseuse, Lait...</Text>
+		<Text>There's a picture next to each item on this menu!</Text>
+		<Text>Let's see here...</Text>
+	</Dialog>
+	
+	<Dialog ID="CA_Menu_Examined">
+		<Text>More menus should have pictures on them, I think.</Text>
+	</Dialog>
+	
+	<Dialog ID="CA_Counter">
+		<Text>The servers are just running around...</Text>
+		<Text>They seem pretty busy.</Text>
+	</Dialog>
+	
+	
+	<!-->NPCs</!-->
+	<Dialog ID="CA_NPC1">
+		<Text lang="fr" num="0">Je besoin une café, mais les serveurs sont occupé.</Text>
+		<Text lang="en">Test here</Text>
+	</Dialog>
+	
+	<Dialog ID="CA_NPC2">
+		<Text>I think they are busy daydreaming...</Text>
+	</Dialog>
+	
+	<Dialog ID="CA_NPC3">
+		<Text>These guys look like they’re having a staring contest.</Text>
+		<Text>I don’t want to interrupt.</Text>
+	</Dialog>
+	
+	<Dialog ID="CA_Stove">
+		<Text>The stove burners are all on, with nothing on them.</Text>
+	</Dialog>
+	
+	<Dialog ID="CA_SinkSign">
+		<Text lang="fr" num="0">Froid seulement!</Text>
+		<Text lang="en">Cold Only!</Text>
+	</Dialog>
+	
+	<Dialog ID="CA_Sink">
+		<Text>The left faucet doesn’t seem to work...</Text>
+		<Text>The right one, on the other hand is giving some pretty chilly water!</Text>
+	</Dialog>
+	
+	<Dialog ID="CA_Sink_GotWord">
+		<Text>I sure hope these guys have access to a plumber.</Text>
+	</Dialog>
+	
+	
+	<!-->House</!-->
+	<Dialog ID="HO_PuppetShow">
+		<Text>There are a bunch of puppets behind it!</Text>
+		<Text>But where is the puppet master?</Text>
+	</Dialog>
+	
+	<Dialog ID="HO_WineBottles">
+		<Text>No drinking on the job!</Text>
+		<Text>...</Text>
+		<Text>Also I’m not of the Sleep Knight legal age yet, 10,000 winks.</Text>
+	</Dialog>
+	
+	<Dialog ID="HO_Feather">
+		<Text>There’s an assortment of decorative feathers here.</Text>
+	</Dialog>
+	
+	<Dialog ID="HO_Fridge">
+		<Text>There is a small fridge looking thing.</Text>
+		<Text>Wait... I think it’s connected to the café!</Text>
+		<Text>They’re supplying him with drinks!</Text>
+	</Dialog>
+	
+	<!-->
+	DrinkBird
+	DB - Drinkbird
+	DBC - Drinkbird command
+	
+	</!-->
+	
+	<Dialog ID="DB_Talk">
+		<Text lang="fr" num="5">J’aime boire le café toujours</Text>
+		<Text lang="en">I love drinking hot coffee</Text>
+	</Dialog>
+	
+	<Dialog ID="DB_Talk_Fail">
+		<Text>This bird seems awfully jittery...</Text>
+		<Text>What the heck is he doing?</Text>
+	</Dialog>
+	
+	<Dialog ID="DB_Talk_Success">
+		<Text>No wonder he's so jittery, he keeps drinking coffee!</Text>
+		<Text>Maybe I could tell him to drink a sleep-friendly alternative?</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Fail">
+		<Text>I don't think I have any words I can use on him yet</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_NoCommand">
+		<Text>...</Text>
+		<Text>I don't think he understood me</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Use1">
+		<Text>He looks at me inquisitively</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Use2">
+		<Text>...</Text>
+		<Text>Utiliser que?</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Use_Milk">
+		<Text>He took some milk out of the fridge and poured it on the floor. He looks pretty pleased with himself.</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Use_FizzyDrink">
+		<Text>He shook it up and sprayed it all over himself!</Text>
+		<Text>Now he’s all sticky...</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Use_Coffee">
+		<Text>...</Text>
+		<Text>...he continues to drink the coffee</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Use_Tea">
+		<Text>He starts munching on a teabag.</Text>
+		<Text>Gross!</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_UseAfter">
+		<Text>I think I'm going to need a more specific verb than use...</Text>
+	</Dialog>
+	
+	<!-->
+	Commands for drinkin
+	
+	</!-->
+	<Dialog ID="DBC_Drink_Coffee01">
+		<Text>He goes to get some fresh coffee...</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Drink_Coffee02">
+		<Text>I think he might be getting even more jittery!</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Drink_Fizz01">
+		<Text>He goes to get a fizzy drink from the fridge...</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Drink_Fizz02">
+		<Text>Buuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuurp</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Drink_Fizz03">
+		<Text>I guess some things go across all language barriers...</Text>
+		<Text>Even Cave speak.</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Drink_Milk01">
+		<Text>He pours out some milk from the carton.</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Drink_Milk02">
+		<Text>J’aime le lait froid!</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Drink_Milk03">
+		<Text>He still looks pretty awake.</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Drink_Tea01">
+		<Text>He grabs a cup of tea</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Drink_Tea02">
+		<Text>...</Text>
+		<Text>Suddenly, he rushed out of the room!</Text>
+		<Text>He came back a minute later, looking relieved</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Drink_Coffee_Cold01">
+		<Text>He grabs a chilled coffee from the fridge.</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Drink_Coffee_Cold02">
+		<Text>I suppose a true coffee lover enjoys coffees of all temperatures.</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Drink_Fizz_Hot">
+		<Text>He sticks his tounge out at me and goes “bleeehhh”.</Text>
+		<Text>I don't think I have a word for that in my book.</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Drink_Milk_Hot01">
+		<Text>He hops over to the fridge and pulls a steaming cup of milk out of it.</Text>
+		<Text>(How’d he manage that???)</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Drink_Milk_Hot02">
+		<Text>...</Text>
+		<Text>...</Text>
+		<Text>..............................................</Text>
+	</Dialog>
+	
+	<Dialog ID="DBC_Drink_Milk_Hot03">
+		<Text>...</Text>
+	</Dialog>
+</Manuscript>	
